@@ -4,7 +4,7 @@ export default function Main () {
   return (
     <div className="main-container">
     <h3 className="header-style">About</h3>
-    <p className="text-body">Hello there! I'mAndrew Barker.
+    <p className="text-body">Hello there! I'm Andrew Barker.
         I’m a Junior Full-Stack Web Developer finishing up my Graduate Diploma at Humber College. My portfolio is growing, and I’m always looking for new things to build, and learn.
         I love clean, intuitive designs and strive to create a seamless interactive experience.</p>
     <h3 className="header-style">Interests</h3>
