@@ -1,0 +1,140 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+#root {
+  font-family: 'Inter', sans-serif;
+  width: 100%;
+  height: 300vh;
+  margin: 0;
+  text-align: center;
+  background-color: #23252C;
+}
+
+.header-container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 317px;
+  background-color: #1A1B21;
+}
+
+.app-container {
+  background-color: black;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  border: none;
+  /* border-radius: 12px; */
+  width: 317px;
+  margin-top: 20px;
+  box-shadow: 1px 1px 22px 12px black;
+}
+
+
+
+.header-name {
+  font-size: 25px;
+  color: white;
+  font-weight: 600;
+  padding-top: 22px;
+}
+
+.header-sub {
+  font-size: 12.8px;
+  color: #F3BF99;
+  padding-top: 6.2px;
+  
+}
+
+.website-link {
+  font-size: 10.24px;
+  color: #F5F5F5
+  ;
+}
+
+.header-photo {
+  margin: 0;
+  width: 317px;
+  padding: 0;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+.button-container {
+  background-color: #1A1B21;
+  padding-top: 15px;
+  margin: 0;
+}
+
+button {
+  border: none;
+  padding: 0;
+  margin: 0;
+  width: 115px;
+}
+
+img {
+  padding: 0;
+  background-color: #23252C;
+  margin: 0;
+}
+
+.button-style img {
+  background-color: #23252C;
+  padding: 0;
+  margin: 0;
+}
+
+
+/* Main stuff */
+
+.main-container {
+  background-color: #1A1B21;
+  padding: 0px 35px 20px 35px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  width: 317px;
+}
+
+.header-style {
+  padding-top: 27px;
+  color: #F5F5F5;
+}
+
+.more-info {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.text-body {
+  padding-top: 5px;
+  color: #DCDCDC;
+  font-size: 10.24;
+}
+
+/* Footer stuff */
+
+.footer-container {
+  background-color: #161619;
+  padding: 0;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  width: 317px;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+
+.social-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+ 
+}
+
+.social-links > a {
+  padding: 20px;
+}
